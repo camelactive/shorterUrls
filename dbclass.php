@@ -109,7 +109,7 @@ class database
         $dataFromJs = database::getDataFromJs();
         $newUrl = database::addToDatabase($dataFromJs);
         echo  "старая ссылка " . '<a href="'.$dataFromJs.'" target="_blank">'.$dataFromJs.'</a>';
-        echo "<br>";
+        echo "<h2>ваш короткий вариант</h2>";
         echo  "новая ссылка " . '<a href="'.$newUrl.'" target="_blank">'.$newUrl.'</a>';
         echo "<br>";
         echo "новая ссылка " . "<input type='text' value='$newUrl' id = 'shortUrl'></a>" . " <button onclick = copyFunc()>скопировать</button>";

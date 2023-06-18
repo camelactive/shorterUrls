@@ -12,7 +12,6 @@
         <input type="text" name="baseUrl_inp" id="baseUrl_inp_id">
         <button type="submit">Отправить</button>
     </form>
-    <h2>ваш короткий вариант</h2>
     <div id="shortUrl_div">
     </div>
 </body>
